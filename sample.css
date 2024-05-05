@@ -1,0 +1,82 @@
+body {
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #87CEEB;
+    width: fit-content;
+    max-width: 90%; /* Added a maximum width */
+    height: 80%;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#name {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #3498db;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+}
+
+.weather {
+    margin-top: 20px;
+}
+
+.weather img {
+    width: 150px;
+}
+
+.humidity, .wind {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.humidity img, .wind img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+h3, p {
+    color: white;
+    margin: 5px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.navbar h3, .navbar p {
+    margin: 0 15px;
+}
